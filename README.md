@@ -111,7 +111,7 @@ Ajax
 ##### Use #####
 [Fetch API][fetch] - promise-based native web api for http requests.  [Polyfill][fetchPoly] until it has universal browser support.
 
-##### Explore ##### 
+##### Explore #####
 [Axios][axios]
 
 Server  API
