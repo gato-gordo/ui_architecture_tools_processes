@@ -11,10 +11,12 @@ Material Design
 ---------------
 [Google Design][gd]
 
-[Material Up][matup] - daily updates of new mobile and web material designs in production
+[Material Up][matup] - daily updates of new mobile and web material designs in production.  Has a newsletter and twitter feed associated it with it.
 
 [Material UI][reactmat] - For React
+
 [Angular Material][angmat] - For Angular 1
+
 [jQuery Material Design Plugins][jquerymat]
 
 
@@ -37,13 +39,35 @@ Front-End View Rendering / DOM Manipulation
 
 [Angular 2][ang2]
 
-React State Management & Data Flow
+React State Management
 ----------------------------------
+## Use ###
+
+[Nothing] - if data flows up and down component trees without crossing over branches horizontally much, you don't really need a special state management library.  
+
 [Redux][redux]
 
-* [Getting Started with Redux][reduxDev]
+  [Getting Started with Redux][reduxDev]
 
-* [Redux DevTools][reduxDev]	
+  [Redux DevTools][reduxDev]
+
+## Know ##
+
+[Flow][
+
+Misc JS Libraries
+-----------------
+
+## Know ##
+[Lodash][lodash] - utility library.
+
+## Explore ##
+
+[Immutable JS][imjs] - immutable data structures 
+
+[RxJs][rxjs] - reactive programming library
+
+[Ramda][ramda] - functional programming library
 
 
 
@@ -63,3 +87,5 @@ React State Management & Data Flow
 [reduxDev]: https://github.com/gaearon/redux-devtools
 [jquery]: https://jquery.com/
 [jquerymat]:  http://www.jqueryscript.net/tags.php?/Material%20Design/
+[imjs]: https://facebook.github.io/immutable-js/
+[rxjs]: http://reactivex.io/rxjs/
