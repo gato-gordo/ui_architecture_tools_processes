@@ -93,5 +93,6 @@ Misc JS Libraries
 [imjs]: https://facebook.github.io/immutable-js/
 [rxjs]: http://reactivex.io/rxjs/
 [ramda]: http://ramdajs.com/
-[pg]: https://github.com/petehunt/react-howto#learning-flux
+[ph]: https://github.com/petehunt/react-howto#learning-flux
 [flux]: https://justgetflux.com/
+[lodash]: https://lodash.com/
