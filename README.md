@@ -11,7 +11,7 @@ Material Design
 ---------------
 [Google Design][gd]
 
-[Material Up][matup] - daily updates of new mobile and web material designs in production.  Has a newsletter and twitter feed associated it with it.
+[Material Up][matup] - Daily updates of new mobile and web apps that use material design principles in production.  Has a newsletter and twitter feed associated it with it.
 
 [Material UI][reactmat] - For React
 
@@ -27,7 +27,7 @@ Front-End View Rendering / DOM Manipulation
 
 [React][react]
 
-[PreactJS][preact] - Lighter weight library that uses React API.  Works well as a production build target for React--i.e., develop in React with React dev tools and then have a build task that creates a production build using Preact (it's as easy as running a different webpack loader in a prod environment)
+[PreactJS][preact] - Lighter weight library that uses React API.  Works well as a production build target for React--i.e., develop in React with React dev tools and then have a build task in prod that uses Preact (it's as easy as running a different webpack loader in a prod environment)
 
 ##### Know #####
 [Angular 1][ang]
@@ -43,7 +43,7 @@ React State Management
 ----------------------------------
 ##### Use #####
 
-[Nothing][ph] - if data flows up and down component trees without much crossing over branches horizontally much, you don't really need a special state management library.  introduce library when events on one part of the page/app start affecting distant parts of the page/app.
+[Nothing][ph] - If data and app state flows up and down component trees without crossing over tree branches "horizontally" much, then you don't really need a special state management library.  Introduce a library when events in one part of the page/app start affecting distant parts of the page/app.
 
 [Redux][redux]
 
@@ -79,14 +79,14 @@ Unit Testing
 [Sinon][sinon] - test mocks, stubs, spies used with Mocha
 
 [Jest][jest] - React component tester.  Shallow renders the component in isolation and allows you to test the render against
-an earlier snapshot that was taken.
+an earlier canonical snapshot that was taken.  Good for UI regression testing.
 
 [Supertest][supertest] - server-side api testing
 
 End-to-End Testing
 ------------------
 ##### Use #####
-[Webdriver.io][wdio] - Selenium headless browser for node
+[Webdriver.io][wdio] - Selenium headless browser and web automation for Node
 
 Module Bundling and Build Tools
 -------------------------------
