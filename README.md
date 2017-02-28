@@ -65,7 +65,6 @@ Misc JS Libraries
 
 [Immutable JS][imjs] - immutable data structures 
 
-
 [RxJs][rxjs] - reactive programming library
 
 [Ramda][ramda] - functional programming library
@@ -87,6 +86,7 @@ an earlier snapshot that was taken.
 
 End-to-End Testing
 ------------------
+##### Use #####
 [Webdriver.io][wdio]: Selenium headless browser for node
 
 
