@@ -13,9 +13,9 @@ Material Design
 
 [Material Up][matup] - Daily updates of new mobile and web apps that use material design principles in production.  Has a newsletter and twitter feed associated it with it.
 
-[Material UI][reactmat] - For React
+[Material UI][reactmat] - UI kit and components for React
 
-[Angular Material][angmat] - For Angular 1
+[Angular Material][angmat] - UI Kit and components for Angular 1
 
 [jQuery Material Design Plugins][jquerymat]
 
@@ -59,7 +59,7 @@ Misc JS Libraries
 -----------------
 
 ##### Know #####
-[Lodash][lodash] - utility library.
+[Lodash][lodash] - utility library
 
 ##### Explore #####
 
