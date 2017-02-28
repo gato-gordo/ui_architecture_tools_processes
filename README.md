@@ -83,40 +83,57 @@ an earlier snapshot that was taken.
 
 [Supertest][supertest] - server-side api testing
 
-
 End-to-End Testing
 ------------------
 ##### Use #####
-[Webdriver.io][wdio]: Selenium headless browser for node
-
+[Webdriver.io][wdio] - Selenium headless browser for node
 
 Module Bundling and Build Tools
 -------------------------------
-Use: Webpack, npm scripts
-Know: Grunt, Gulp
+##### Use #####
+[Webpack][wp] 
 
+[npm scripts][npms]
 
-CSS Pre-processor
+##### Know #####
+[Grunt][grunt]
+
+[Gulp][gulp]
+
+CSS Pre-processors
 -----------------
-SASS
+##### Use #####
+
+[Sass][sass]
 
 Ajax
 --------------
-Use: Fetch API
-Know: 
-Explore: Axios
+##### Use #####
+[Fetch API][fetch] - promise-based native web api for http requests.  [Polyfill][fetchPoly] until it has universal browser support.
+
+##### Explore ##### 
+[Axios][axios]
 
 Server  API
 -----------
-Use: Restify
-Know: Express
-Explore: Hapi
+##### Use #####
+[Restify][restify]
+
+##### Know #####
+[Express][express]
+
+##### Explore #####
+[Hapi][hapi]
+
+[Koa][koa]
 
 Node
 ----
-4.x
-Explore: 6/7
+##### Use #####
+[6.x][node6]
 
+##### Explore #####
+[7.x][node7]
 
 
 [gvds]: https://www.youtube.com/watch?v=7zOBMxRYJ7I&list=PLNKW8GAxivxcwqF2OU7UvjkT_lPMqz_C8
@@ -147,3 +164,16 @@ Explore: 6/7
 [chai]: http://chaijs.com/
 [sinon]: http://sinonjs.org/
 [jest]: https://facebook.github.io/jest/
+[sass]: http://sass-lang.com/
+[fetch]: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+[fetchPoly]:  https://github.com/github/fetch
+[axios]: https://github.com/mzabriskie/axios
+[koa]: http://koajs.com/
+[hapi]: https://hapijs.com/
+[restify]: http://mcavage.me/node-restify/
+[wp]: https://webpack.github.io/
+[node6]: https://nodejs.org/en/blog/release/v6.0.0/
+[node7]: https://nodejs.org/en/blog/release/v7.0.0/
+[gulp]: http://gulpjs.com/
+[grunt]: https://gruntjs.com/
+[npms]: https://docs.npmjs.com/misc/scripts
