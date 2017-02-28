@@ -23,25 +23,25 @@ Material Design
 Front-End View Rendering / DOM Manipulation
 -------------------------------------------
 
-### Use ###
+##### Use #####
 
 [React][react]
 
 [PreactJS][preact] - Lighter weight library that uses React API.  Works well as a production build target for React--i.e., develop in React with React dev tools and then have a build task that creates a production build using Preact (it's as easy as running a different webpack loader in a prod environment)
 
-### Know ###
+##### Know #####
 [AngularJS][ang]
 
 [jQuery][jquery]
 
-### Explore ###
+##### Explore #####
 [Vue][vue]
 
 [Angular 2][ang2]
 
 React State Management
 ----------------------------------
-## Use ###
+##### Use #####
 
 [Nothing][ph] - if data flows up and down component trees without much crossing over branches horizontally much, you don't really need a special state management library.  introduce library when events on one part of the page/app start affecting distant parts of the page/app.
 
@@ -51,7 +51,7 @@ React State Management
 
   [Redux DevTools][reduxDev]
 
-## Know ##
+##### Know #####
 
 [Flux][flux]
 
@@ -59,10 +59,10 @@ React State Management
 Misc JS Libraries
 -----------------
 
-## Know ##
+##### Know #####
 [Lodash][lodash] - utility library.
 
-## Explore ##
+##### Explore #####
 
 [Immutable JS][imjs] - immutable data structures 
 
