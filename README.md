@@ -15,7 +15,7 @@ Material Design
 
 [Material UI][reactmat] - UI kit and components for React
 
-[Angular Material][angmat] - UI Kit and components for Angular 1
+[Angular Material][angmat] - UI kit and components for Angular 1
 
 [jQuery Material Design Plugins][jquerymat]
 
