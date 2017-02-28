@@ -43,7 +43,7 @@ React State Management
 ----------------------------------
 ## Use ###
 
-[Nothing] - if data flows up and down component trees without crossing over branches horizontally much, you don't really need a special state management library.  
+[Nothing][ph] - if data flows up and down component trees without much crossing over branches horizontally much, you don't really need a special state management library.  introduce library when events on one part of the page/app start affecting distant parts of the page/app.
 
 [Redux][redux]
 
@@ -53,7 +53,8 @@ React State Management
 
 ## Know ##
 
-[Flow][
+[Flux][flux]
+
 
 Misc JS Libraries
 -----------------
@@ -65,7 +66,9 @@ Misc JS Libraries
 
 [Immutable JS][imjs] - immutable data structures 
 
+
 [RxJs][rxjs] - reactive programming library
+
 
 [Ramda][ramda] - functional programming library
 
@@ -82,10 +85,13 @@ Misc JS Libraries
 [vue]: https://vuejs.org/
 [sin]: http://sinonjs.org/
 [reactmat]: http://www.material-ui.com/#/
-[angmat: https://material.angularjs.org/latest/
+[angmat]: https://material.angularjs.org/latest/
 [redux]: http://redux.js.org/
 [reduxDev]: https://github.com/gaearon/redux-devtools
 [jquery]: https://jquery.com/
 [jquerymat]:  http://www.jqueryscript.net/tags.php?/Material%20Design/
 [imjs]: https://facebook.github.io/immutable-js/
 [rxjs]: http://reactivex.io/rxjs/
+[ramda]: http://ramdajs.com/
+[pg]: https://github.com/petehunt/react-howto#learning-flux
+[flux]: https://justgetflux.com/
