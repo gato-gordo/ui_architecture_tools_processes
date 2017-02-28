@@ -30,7 +30,7 @@ Front-End View Rendering / DOM Manipulation
 [PreactJS][preact] - Lighter weight library that uses React API.  Works well as a production build target for React--i.e., develop in React with React dev tools and then have a build task that creates a production build using Preact (it's as easy as running a different webpack loader in a prod environment)
 
 ##### Know #####
-[AngularJS][ang]
+[Angular 1][ang]
 
 [jQuery][jquery]
 
@@ -47,14 +47,13 @@ React State Management
 
 [Redux][redux]
 
-  [Getting Started with Redux][reduxDev]
+  * [Getting Started with Redux][reduxDev]
 
-  [Redux DevTools][reduxDev]
+  * [Redux DevTools][reduxDev]
 
 ##### Know #####
 
 [Flux][flux]
-
 
 Misc JS Libraries
 -----------------
@@ -69,8 +68,54 @@ Misc JS Libraries
 
 [RxJs][rxjs] - reactive programming library
 
-
 [Ramda][ramda] - functional programming library
+
+Unit Testing
+-----------------
+##### Use #####
+[Mocha][mocha] - test framework for Node.js and browser code
+
+[Chai][chai] - BDD /TDD style assertion library used with Mocha
+
+[Sinon][sinon] - test mocks, stubs, spies used with Mocha
+
+[Jest][jest] - React component tester.  Shallow renders the component in isolation and allows you to test the render against
+an earlier snapshot that was taken.
+
+[Supertest][supertest] - server-side api testing
+
+
+End-to-End Testing
+------------------
+[Webdriver.io][wdio]: Selenium headless browser for node
+
+
+Module Bundling and Build Tools
+-------------------------------
+Use: Webpack, npm scripts
+Know: Grunt, Gulp
+
+
+CSS Pre-processor
+-----------------
+SASS
+
+Ajax
+--------------
+Use: Fetch API
+Know: 
+Explore: Axios
+
+Server  API
+-----------
+Use: Restify
+Know: Express
+Explore: Hapi
+
+Node
+----
+4.x
+Explore: 6/7
 
 
 
@@ -91,8 +136,14 @@ Misc JS Libraries
 [jquery]: https://jquery.com/
 [jquerymat]:  http://www.jqueryscript.net/tags.php?/Material%20Design/
 [imjs]: https://facebook.github.io/immutable-js/
+[wdio]: http://webdriver.io/
 [rxjs]: http://reactivex.io/rxjs/
 [ramda]: http://ramdajs.com/
 [ph]: https://github.com/petehunt/react-howto#learning-flux
 [flux]: https://justgetflux.com/
 [lodash]: https://lodash.com/
+[supertest]: https://github.com/visionmedia/supertest
+[mocha]: https://mochajs.org/
+[chai]: http://chaijs.com/
+[sinon]: http://sinonjs.org/
+[jest]: https://facebook.github.io/jest/
